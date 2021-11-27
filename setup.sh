@@ -10,6 +10,6 @@ sudo yarn add datatables.net-buttons
 sudo yarn add datatables.net-responsive-bs4
 sudo yarn test
 pip3 install pytest
-pytest -sv --cov=test --cov=js --cov-report html
-cd htmlcov
-echo "Run index.html. e.g. google-chrome index.html"
+pytest -sv --cov=py --cov=js --cov-report html
+cd ./htmlcov
+echo "Run htmlcov/index.html."
