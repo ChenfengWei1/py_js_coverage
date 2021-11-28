@@ -3,4 +3,4 @@ plugins = mycov
 omit =
 	test/*
 	/usr/*
-	/home/usrname/.local/*
+	$HOME/.local/*
