@@ -8,8 +8,8 @@ sudo yarn add datatables
 sudo yarn add datatables.net-responsive
 sudo yarn add datatables.net-buttons
 sudo yarn add datatables.net-responsive-bs4
-sudo yarn test
-pip3 install pytest
-pytest -sv --cov=py --cov=js --cov-report html
-cd ./htmlcov
+sudo pip3 install pytest
+sudo pip3 install pytest-cov
+echo "Run command: yarn test , to generate coverage report for js file."
+echo "Run command like: pytest -sv --cov=py --cov=js --cov-report html."
 echo "Run htmlcov/index.html."
