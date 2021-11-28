@@ -1,0 +1,6 @@
+[run]
+plugins = mycov
+omit =
+	test/*
+	/usr/*
+	/home/usrname/.local/*
