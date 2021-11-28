@@ -10,9 +10,8 @@ yarn add datatables.net-buttons
 yarn add datatables.net-responsive-bs4
 pip3 install pytest
 pip3 install pytest-cov
-# pip3 install coverage==4.5
 echo "====================================================================="
 echo "Run command: yarn test , to generate coverage report for js file."
-echo "Run command like: python -m pytest --cov-report=term-missing --cov=src test/ --cov=js --cov-report html"
+echo "Run command like: python -m pytest --cov-report=term-missing --continue-on-collection-errors --cov=js --cov=py  --cov-report html"
 echo "Run htmlcov/index.html."
 echo "====================================================================="
