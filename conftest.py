@@ -30,5 +30,11 @@ def append_istanbul_coverage(cov):
     istanbul_cov = coverage.data.CoverageData()
 
     with io.StringIO(text) as fp:
-        istanbul_cov.read_fileobj(fp)
-    cov.data.update(istanbul_cov)
+        try:
+            istanbul_cov.read_fileobj(fp)
+        except:
+            pass
+    try:
+        cov.data.update(istanbul_cov)
+    except:
+        pass

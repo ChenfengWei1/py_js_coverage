@@ -13,5 +13,5 @@ pip3 install pytest-cov
 echo "====================================================================="
 echo "Run command: yarn test , to generate coverage report for js file."
 echo "Run command like: python -m pytest --cov-report=term-missing --continue-on-collection-errors --cov=js --cov=py  --cov-report html"
-echo "Run htmlcov/index.html."
+echo "Run command like: google-chrome htmlcov/index.html."
 echo "====================================================================="

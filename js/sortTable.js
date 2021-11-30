@@ -23,12 +23,6 @@ $(document).ready(function () {
     $.fn.dataTable.defaults.bInfo = false;
     $.fn.dataTable.defaults.bSortCellsTop = true;
     $('table.table').DataTable({
-
-        // "paging": false,
-        // "searching": false,
-        // "info": false,
-        // "retrieve": true,
-        "order": []
     });
     $('.dataTables_length').addClass('bs-select');
 });
