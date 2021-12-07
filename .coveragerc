@@ -4,3 +4,4 @@ omit =
 	test/*
 	/usr/*
 	$HOME/.local/*
+	$HOME/workspace/comp62521-2021-lab/src/comp62521/static/js/*
